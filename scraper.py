@@ -836,7 +836,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Configurar modo headless
-    global HEADLESS
+    # global HEADLESS
     HEADLESS = not args.no_headless
 
     scrape_xbdeals(
